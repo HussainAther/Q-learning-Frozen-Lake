@@ -1,4 +1,20 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
 *.pyc
+
+# Virtual environment
+.venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python environment files
+*.env
 .env
+
+# macOS files
 .DS_Store
+
