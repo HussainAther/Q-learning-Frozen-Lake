@@ -1,0 +1,16 @@
+# Hyperparameters configuration file for Q-learning
+
+environment:
+  name: "FrozenLake-v1"
+  is_slippery: False
+
+hyperparameters:
+  alpha: 0.5             # Learning rate
+  gamma: 0.9             # Discount factor
+  epsilon: 1.0           # Initial epsilon for exploration
+  epsilon_decay: 0.001   # Epsilon decay rate
+  episodes: 1000         # Number of training episodes
+
+evaluation:
+  episodes: 100          # Number of evaluation episodes
+
